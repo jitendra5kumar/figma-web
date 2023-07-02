@@ -1,7 +1,7 @@
 import React from 'react';
 import "./hero.css"
-import IMG1 from "../esset/img2.jpg"
-import IMG2 from "../esset/img3.jpg"
+// import IMG1 from "../esset/img2.jpg"
+// import IMG2 from "../esset/img3.jpg"
 import Carousel from './Carousels';
 import {BsFacebook} from "react-icons/bs";
 import {BsYoutube} from "react-icons/bs";
@@ -34,8 +34,8 @@ const Hero = () => {
                             </div>
                             <div className="img">
                                 <div className="pic">
-                                    <img src={IMG1} className='img1' alt="" />
-                                    <img src={IMG2} className='img2' alt="" />
+                                    <img src="https://images.pexels.com/photos/8453941/pexels-photo-8453941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='img1' alt="" />
+                                    <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='img2' alt="" />
 
                                     <ul>
                                         <li></li>
